@@ -6,9 +6,9 @@ templates_path = ["_templates"]
 source_suffix = ".rst"
 master_doc = "index"
 
-project = u"Alabaster"
+project = u"poliastro"
 year = datetime.now().year
-copyright = u"%d Jeff Forcier" % year
+copyright = u"%d Juan Luis Cano and poliastro development team" % year
 
 exclude_patterns = ["_build"]
 
@@ -23,13 +23,8 @@ html_sidebars = {
     ]
 }
 html_theme_options = {
-    "description": "A light, configurable Sphinx theme",
-    "github_user": "bitprophet",
-    "github_repo": "alabaster",
+    "description": "Astrodynamics in Python",
+    "github_user": "poliastro",
+    "github_repo": "poliastro",
     "fixed_sidebar": True,
 }
-
-extensions.append("releases")
-releases_github_path = "bitprophet/alabaster"
-# Our pre-0.x releases are unstable / mix bugs+features
-releases_unstable_prehistory = True

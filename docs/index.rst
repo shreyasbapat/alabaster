@@ -1,8 +1,33 @@
-=========================
-Alabaster: a Sphinx theme
-=========================
+===================================
+poliastro : Astrodynamics in Python
+===================================
 
-.. include:: ../README.rst
+**poliastro** is an open source (MIT) collection of
+Python functions useful in Astrodynamics and Orbital
+Mechanics, focusing on interplanetary applications.
+It provides a simple and intuitive API and handles
+physical quantities with units. Some of its awesome
+features are:
+
+* Analytical and numerical orbit propagation
+* Conversion between position and velocity vectors and
+  classical orbital elements
+* Coordinate frame transformations
+* Hohmann and bielliptic maneuvers computation
+* Trajectory plotting
+* Initial orbit determination (Lambert problem)
+* Planetary ephemerides (using SPICE kernels via Astropy)
+* Computation of Near-Earth Objects (NEOs)
+
+And more to come!
+
+poliastro is developed by an open, international community.
+Release announcements and general discussion take place
+on our `mailing list`_ and `chat`_.
+
+.. _`mailing list`: https://groups.io/g/poliastro-dev
+.. _`chat`: https://riot.im/app/#/room/#poliastro:matrix.org
+
 
 Features
 ========
@@ -22,9 +47,9 @@ Project background
 ==================
 
 Alabaster is a modified (with permission) version of `Kenneth Reitz's
-<http://kennethreitz.org>`_ `"krTheme" Sphinx theme 
-<https://github.com/kennethreitz/kr-sphinx-themes>`_ (it's the one used 
-in his `Requests <http://python-requests.org>`_ project). Kenneth's 
+<http://kennethreitz.org>`_ `"krTheme" Sphinx theme
+<https://github.com/kennethreitz/kr-sphinx-themes>`_ (it's the one used
+in his `Requests <http://python-requests.org>`_ project). Kenneth's
 theme was itself originally based on Armin Ronacher's `Flask
 <http://flask.pocoo.org/>`_ theme. Many thanks to both for their hard work.
 
